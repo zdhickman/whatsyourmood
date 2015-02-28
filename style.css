@@ -1,0 +1,112 @@
+html {
+	background-image: url('bg-trans2.gif');
+	transition: background-color 1.0s ease;
+}
+
+body {
+	text-align: center;
+	margin-top: 50px;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+canvas {
+	/*margin-top: 40px;
+	margin-bottom: 40px;*/
+}
+
+h1 {
+	font-family: 'Julius Sans One', sans-serif;
+	color: #403E2F;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.main-header {
+	font-size: 5em;
+	margin-bottom: 40px;
+}
+
+#icons {
+	padding-top: 1.5em;
+	padding-left: 0.5em;
+}
+
+#icons i {
+	font-size: 7em;
+	padding-left: 1.9em;
+	padding-right: 1.9em;
+	padding-top: 0.35em;
+	padding-bottom: 0.35em;
+	cursor: pointer;
+}
+
+.card {
+  padding:2rem;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  border-radius:3px;
+  user-select:none;
+  transform-origin:top left;
+  width: 20em;
+  height: 29em;
+  float: center;
+  margin: auto;
+}
+
+#main {
+  display:block;
+  position:relative;
+  width:100%;
+  margin:3vh auto;
+  outline
+  border-radius:.25rem;
+  overflow:hidden;
+}
+
+#feels {
+	width: 100%;
+	padding-top: 0;
+}
+
+#graphs {
+	width: 100%;
+	padding-bottom: 0;
+	background-color: rgba(149, 165, 166, 0.2);
+}
+
+.chosen {
+	/*background-color: #d5d5d5 !important;*/
+}
+
+.not-chosen {
+	opacity: 0.5;
+}
+
+.frown {
+	background-color: rgb(231, 76, 60);
+	border-bottom-left-radius: 10px;
+	border-top-left-radius: 10px;
+}
+
+.meh {
+	background-color: rgb(241, 196, 15);
+}
+
+.happy {
+	background-color: rgb(46, 204, 113);
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.frown-bg {
+	background-color: rgba(231, 76, 60, 0.15);
+}
+
+.meh-bg {
+	background-color: rgba(241, 196, 15, 0.15);
+}
+
+.happy-bg {
+	background-color: rgba(46, 204, 113, 0.15);
+}

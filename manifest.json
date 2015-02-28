@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "What's your Mood?",
+  "description": "Log your mood once a day, for self-reflection.",
+  "version": "0.1",
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+
+  "permissions": [
+    "storage"
+  ],
+
+  "chrome_url_overrides" : {
+    "newtab": "index.html"
+  }
+}
